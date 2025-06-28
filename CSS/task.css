@@ -20,9 +20,56 @@ body {
     .header {
         background-color: transparent;
         backdrop-filter: blur(0);
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .header_with_banner {
+        padding-inline: 0 !important;
+    }
+
+    .mp-0 {
+        padding: 0 !important;
     }
 }
 
 .fw-custombold {
     font-weight: 600;
+}
+
+.banner-btn-1 {
+    background-color: rgb(255, 101, 45);
+    color: white;
+}
+
+.banner-btn-2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+@media(max-width:393px) {
+    .banner-flex {
+        display: block !important;
+        text-align: center;
+    }
+
+    .banner-btn-1,
+    .banner-btn-2 {
+        margin-block: 10px !important;
+        width: 75%;
+    }
+
+    .banner-icon {
+        justify-content: center !important;
+    }
+}
+
+.icon {
+    border: 1px solid #6a717eab;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #b8d1ff52;
+    backdrop-filter: blur(5px);
 }
