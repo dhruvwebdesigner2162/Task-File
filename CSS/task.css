@@ -48,7 +48,7 @@ body {
     color: white;
 }
 
-@media(max-width:393px) {
+@media(max-width:425px) {
     .banner-flex {
         display: block !important;
         text-align: center;
