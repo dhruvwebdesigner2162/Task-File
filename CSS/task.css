@@ -73,3 +73,25 @@ body {
     background: #b8d1ff52;
     backdrop-filter: blur(5px);
 }
+
+.bg-badge-danger {
+    background-color: #FDEFE3;
+}
+
+.custom-border-danger {
+    border: 1px solid #FEDCC3;
+}
+
+.custom-text-secondary {
+    color: #C5C5C5 !important;
+}
+
+.custom-orange-bg {
+    background-color: rgb(255, 101, 45);
+}
+
+@media(max-width: 767px) {
+    .d-block-media {
+        display: block !important;
+    }
+}
