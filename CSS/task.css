@@ -95,3 +95,39 @@ body {
         display: block !important;
     }
 }
+
+.selling-products {
+    background-color: #F2F2F2 !important;
+}
+
+.text-orange {
+    color: rgb(255, 101, 45);
+}
+
+.custom-card-radius {
+    border-radius: 20px !important;
+}
+
+.timing-banner {
+    background-image: url(../Images/timing\ banner\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-timing-radius {
+    border-radius: 15px;
+}
+
+@media(max-width: 575px) {
+    .lorem-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lorem-logo img {
+        height: auto !important;
+        width: auto !important;
+    }
+}
