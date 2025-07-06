@@ -131,3 +131,39 @@ body {
         width: auto !important;
     }
 }
+
+.custom-darkblue-bg {
+    background-color: #1C2534 !important;
+}
+
+/* border-right: 3px dashed white; */
+
+
+@media(max-width: 768px) {
+    .custom-dashed-bottom-border {
+        border-bottom: none;
+    }
+
+    .custom-dashed-border {
+        border-bottom: none;
+    }
+}
+
+.luma-lounge-chair-ip .container .row {
+    background-image: url(../Images/texture\ background\ image\ for\ luma\ lounge\ chair\ porsen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 767px) {
+    .d-media-order-1 {
+        display: flex;
+        order: 1;
+    }
+
+    .d-media-order-2 {
+        display: flex;
+        order: 2;
+    }
+}
