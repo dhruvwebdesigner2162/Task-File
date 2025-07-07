@@ -104,6 +104,10 @@ body {
     color: rgb(255, 101, 45);
 }
 
+.border-orange {
+    border: 1px solid rgb(255, 101, 45);
+}
+
 .custom-card-radius {
     border-radius: 20px !important;
 }
@@ -165,5 +169,35 @@ body {
     .d-media-order-2 {
         display: flex;
         order: 2;
+    }
+
+    .w-media-100 {
+        width: 100% !important;
+    }
+
+    .footer-text-center {
+        text-align: center !important;
+    }
+
+    .footer-d-block {
+        display: block !important;
+        text-align: center !important;
+    }
+}
+
+.ds {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/sofas\ background\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:450px) {
+    .d-block-media-footer {
+        display: block !important;
+    }
+
+    .footer-media {
+        margin-right: 0 !important;
     }
 }
